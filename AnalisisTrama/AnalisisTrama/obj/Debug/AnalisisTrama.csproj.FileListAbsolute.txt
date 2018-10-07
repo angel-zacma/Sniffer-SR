@@ -1,0 +1,87 @@
+C:\Users\user-pc\Documents\AnalisisTrama\AnalisisTrama\AnalisisTrama\bin\Debug\AnalisisTrama.exe.config
+C:\Users\user-pc\Documents\AnalisisTrama\AnalisisTrama\AnalisisTrama\bin\Debug\AnalisisTrama.exe
+C:\Users\user-pc\Documents\AnalisisTrama\AnalisisTrama\AnalisisTrama\bin\Debug\AnalisisTrama.pdb
+C:\Users\user-pc\Documents\AnalisisTrama\AnalisisTrama\AnalisisTrama\obj\Debug\AnalisisTrama.csprojAssemblyReference.cache
+C:\Users\user-pc\Documents\AnalisisTrama\AnalisisTrama\AnalisisTrama\obj\Debug\AnalisisTrama.Form1.resources
+C:\Users\user-pc\Documents\AnalisisTrama\AnalisisTrama\AnalisisTrama\obj\Debug\AnalisisTrama.Properties.Resources.resources
+C:\Users\user-pc\Documents\AnalisisTrama\AnalisisTrama\AnalisisTrama\obj\Debug\AnalisisTrama.csproj.GenerateResource.cache
+C:\Users\user-pc\Documents\AnalisisTrama\AnalisisTrama\AnalisisTrama\obj\Debug\AnalisisTrama.csproj.CoreCompileInputs.cache
+C:\Users\user-pc\Documents\AnalisisTrama\AnalisisTrama\AnalisisTrama\obj\Debug\AnalisisTrama.exe
+C:\Users\user-pc\Documents\AnalisisTrama\AnalisisTrama\AnalisisTrama\obj\Debug\AnalisisTrama.pdb
+C:\Users\Angel Zacarias\Desktop\CUCEI 3o\SRPC\AnalisisTramaEnZip\AnalisisTrama\AnalisisTrama\AnalisisTrama\bin\Debug\AnalisisTrama.exe.config
+C:\Users\Angel Zacarias\Desktop\CUCEI 3o\SRPC\AnalisisTramaEnZip\AnalisisTrama\AnalisisTrama\AnalisisTrama\obj\Debug\AnalisisTrama.exe
+C:\Users\Angel Zacarias\Desktop\CUCEI 3o\SRPC\AnalisisTramaEnZip\AnalisisTrama\AnalisisTrama\AnalisisTrama\obj\Debug\AnalisisTrama.pdb
+C:\Users\Angel Zacarias\Desktop\CUCEI 3o\SRPC\AnalisisTramaEnZip\AnalisisTrama\AnalisisTrama\AnalisisTrama\bin\Debug\AnalisisTrama.exe
+C:\Users\Angel Zacarias\Desktop\CUCEI 3o\SRPC\AnalisisTramaEnZip\AnalisisTrama\AnalisisTrama\AnalisisTrama\bin\Debug\AnalisisTrama.pdb
+C:\Users\Angel Zacarias\Desktop\CUCEI 3o\SRPC\AnalisisTramaEnZip\AnalisisTrama\AnalisisTrama\AnalisisTrama\obj\Debug\AnalisisTrama.csprojResolveAssemblyReference.cache
+C:\Users\Angel Zacarias\Desktop\CUCEI 3o\SRPC\AnalisisTramaEnZip\AnalisisTrama\AnalisisTrama\AnalisisTrama\obj\Debug\AnalisisTrama.Form1.resources
+C:\Users\Angel Zacarias\Desktop\CUCEI 3o\SRPC\AnalisisTramaEnZip\AnalisisTrama\AnalisisTrama\AnalisisTrama\obj\Debug\AnalisisTrama.Properties.Resources.resources
+C:\Users\Angel Zacarias\Desktop\CUCEI 3o\SRPC\AnalisisTramaEnZip\AnalisisTrama\AnalisisTrama\AnalisisTrama\obj\Debug\AnalisisTrama.csproj.GenerateResource.Cache
+C:\Users\user-pc\Desktop\AnalisisTramaEnZip\AnalisisTrama\AnalisisTrama\AnalisisTrama\bin\Debug\AnalisisTrama.exe.config
+C:\Users\user-pc\Desktop\AnalisisTramaEnZip\AnalisisTrama\AnalisisTrama\AnalisisTrama\bin\Debug\AnalisisTrama.exe
+C:\Users\user-pc\Desktop\AnalisisTramaEnZip\AnalisisTrama\AnalisisTrama\AnalisisTrama\bin\Debug\AnalisisTrama.pdb
+C:\Users\user-pc\Desktop\AnalisisTramaEnZip\AnalisisTrama\AnalisisTrama\AnalisisTrama\obj\Debug\AnalisisTrama.csprojAssemblyReference.cache
+C:\Users\user-pc\Desktop\AnalisisTramaEnZip\AnalisisTrama\AnalisisTrama\AnalisisTrama\obj\Debug\AnalisisTrama.Form1.resources
+C:\Users\user-pc\Desktop\AnalisisTramaEnZip\AnalisisTrama\AnalisisTrama\AnalisisTrama\obj\Debug\AnalisisTrama.Properties.Resources.resources
+C:\Users\user-pc\Desktop\AnalisisTramaEnZip\AnalisisTrama\AnalisisTrama\AnalisisTrama\obj\Debug\AnalisisTrama.csproj.GenerateResource.cache
+C:\Users\user-pc\Desktop\AnalisisTramaEnZip\AnalisisTrama\AnalisisTrama\AnalisisTrama\obj\Debug\AnalisisTrama.csproj.CoreCompileInputs.cache
+C:\Users\user-pc\Desktop\AnalisisTramaEnZip\AnalisisTrama\AnalisisTrama\AnalisisTrama\obj\Debug\AnalisisTrama.exe
+C:\Users\user-pc\Desktop\AnalisisTramaEnZip\AnalisisTrama\AnalisisTrama\AnalisisTrama\obj\Debug\AnalisisTrama.pdb
+D:\CUCEI\Tercer Semestre\Seminario de Redes de computadoras\Analisis Trama versiones\AnalisisTramaEnZip\AnalisisTrama\AnalisisTrama\AnalisisTrama\bin\Debug\AnalisisTrama.exe.config
+D:\CUCEI\Tercer Semestre\Seminario de Redes de computadoras\Analisis Trama versiones\AnalisisTramaEnZip\AnalisisTrama\AnalisisTrama\AnalisisTrama\bin\Debug\AnalisisTrama.exe
+D:\CUCEI\Tercer Semestre\Seminario de Redes de computadoras\Analisis Trama versiones\AnalisisTramaEnZip\AnalisisTrama\AnalisisTrama\AnalisisTrama\bin\Debug\AnalisisTrama.pdb
+D:\CUCEI\Tercer Semestre\Seminario de Redes de computadoras\Analisis Trama versiones\AnalisisTramaEnZip\AnalisisTrama\AnalisisTrama\AnalisisTrama\obj\Debug\AnalisisTrama.csprojAssemblyReference.cache
+D:\CUCEI\Tercer Semestre\Seminario de Redes de computadoras\Analisis Trama versiones\AnalisisTramaEnZip\AnalisisTrama\AnalisisTrama\AnalisisTrama\obj\Debug\AnalisisTrama.Form1.resources
+D:\CUCEI\Tercer Semestre\Seminario de Redes de computadoras\Analisis Trama versiones\AnalisisTramaEnZip\AnalisisTrama\AnalisisTrama\AnalisisTrama\obj\Debug\AnalisisTrama.Properties.Resources.resources
+D:\CUCEI\Tercer Semestre\Seminario de Redes de computadoras\Analisis Trama versiones\AnalisisTramaEnZip\AnalisisTrama\AnalisisTrama\AnalisisTrama\obj\Debug\AnalisisTrama.csproj.GenerateResource.cache
+D:\CUCEI\Tercer Semestre\Seminario de Redes de computadoras\Analisis Trama versiones\AnalisisTramaEnZip\AnalisisTrama\AnalisisTrama\AnalisisTrama\obj\Debug\AnalisisTrama.csproj.CoreCompileInputs.cache
+D:\CUCEI\Tercer Semestre\Seminario de Redes de computadoras\Analisis Trama versiones\AnalisisTramaEnZip\AnalisisTrama\AnalisisTrama\AnalisisTrama\obj\Debug\AnalisisTrama.exe
+D:\CUCEI\Tercer Semestre\Seminario de Redes de computadoras\Analisis Trama versiones\AnalisisTramaEnZip\AnalisisTrama\AnalisisTrama\AnalisisTrama\obj\Debug\AnalisisTrama.pdb
+C:\Users\USER\Desktop\AnalisisTrama\AnalisisTrama\AnalisisTrama\bin\Debug\AnalisisTrama.exe.config
+C:\Users\USER\Desktop\AnalisisTrama\AnalisisTrama\AnalisisTrama\bin\Debug\AnalisisTrama.exe
+C:\Users\USER\Desktop\AnalisisTrama\AnalisisTrama\AnalisisTrama\bin\Debug\AnalisisTrama.pdb
+C:\Users\USER\Desktop\AnalisisTrama\AnalisisTrama\AnalisisTrama\obj\Debug\AnalisisTrama.csprojAssemblyReference.cache
+C:\Users\USER\Desktop\AnalisisTrama\AnalisisTrama\AnalisisTrama\obj\Debug\AnalisisTrama.Form1.resources
+C:\Users\USER\Desktop\AnalisisTrama\AnalisisTrama\AnalisisTrama\obj\Debug\AnalisisTrama.Properties.Resources.resources
+C:\Users\USER\Desktop\AnalisisTrama\AnalisisTrama\AnalisisTrama\obj\Debug\AnalisisTrama.csproj.GenerateResource.cache
+C:\Users\USER\Desktop\AnalisisTrama\AnalisisTrama\AnalisisTrama\obj\Debug\AnalisisTrama.csproj.CoreCompileInputs.cache
+C:\Users\USER\Desktop\AnalisisTrama\AnalisisTrama\AnalisisTrama\obj\Debug\AnalisisTrama.exe
+C:\Users\USER\Desktop\AnalisisTrama\AnalisisTrama\AnalisisTrama\obj\Debug\AnalisisTrama.pdb
+D:\CUCEI\Tercer Semestre\Seminario de Redes de computadoras\Analisis Trama versiones\30-sep\AnalisisTrama\AnalisisTrama\AnalisisTrama\bin\Debug\AnalisisTrama.exe.config
+D:\CUCEI\Tercer Semestre\Seminario de Redes de computadoras\Analisis Trama versiones\30-sep\AnalisisTrama\AnalisisTrama\AnalisisTrama\bin\Debug\AnalisisTrama.exe
+D:\CUCEI\Tercer Semestre\Seminario de Redes de computadoras\Analisis Trama versiones\30-sep\AnalisisTrama\AnalisisTrama\AnalisisTrama\bin\Debug\AnalisisTrama.pdb
+D:\CUCEI\Tercer Semestre\Seminario de Redes de computadoras\Analisis Trama versiones\30-sep\AnalisisTrama\AnalisisTrama\AnalisisTrama\obj\Debug\AnalisisTrama.csprojAssemblyReference.cache
+D:\CUCEI\Tercer Semestre\Seminario de Redes de computadoras\Analisis Trama versiones\30-sep\AnalisisTrama\AnalisisTrama\AnalisisTrama\obj\Debug\AnalisisTrama.Form1.resources
+D:\CUCEI\Tercer Semestre\Seminario de Redes de computadoras\Analisis Trama versiones\30-sep\AnalisisTrama\AnalisisTrama\AnalisisTrama\obj\Debug\AnalisisTrama.Properties.Resources.resources
+D:\CUCEI\Tercer Semestre\Seminario de Redes de computadoras\Analisis Trama versiones\30-sep\AnalisisTrama\AnalisisTrama\AnalisisTrama\obj\Debug\AnalisisTrama.csproj.GenerateResource.cache
+D:\CUCEI\Tercer Semestre\Seminario de Redes de computadoras\Analisis Trama versiones\30-sep\AnalisisTrama\AnalisisTrama\AnalisisTrama\obj\Debug\AnalisisTrama.csproj.CoreCompileInputs.cache
+D:\CUCEI\Tercer Semestre\Seminario de Redes de computadoras\Analisis Trama versiones\30-sep\AnalisisTrama\AnalisisTrama\AnalisisTrama\obj\Debug\AnalisisTrama.exe
+D:\CUCEI\Tercer Semestre\Seminario de Redes de computadoras\Analisis Trama versiones\30-sep\AnalisisTrama\AnalisisTrama\AnalisisTrama\obj\Debug\AnalisisTrama.pdb
+C:\Users\Angel Zacarias\Desktop\CUCEI 3o\SRPC\AnalisisTrama30-sep\AnalisisTrama\AnalisisTrama\AnalisisTrama\bin\Debug\AnalisisTrama.exe.config
+C:\Users\Angel Zacarias\Desktop\CUCEI 3o\SRPC\AnalisisTrama30-sep\AnalisisTrama\AnalisisTrama\AnalisisTrama\obj\Debug\AnalisisTrama.exe
+C:\Users\Angel Zacarias\Desktop\CUCEI 3o\SRPC\AnalisisTrama30-sep\AnalisisTrama\AnalisisTrama\AnalisisTrama\obj\Debug\AnalisisTrama.pdb
+C:\Users\Angel Zacarias\Desktop\CUCEI 3o\SRPC\AnalisisTrama30-sep\AnalisisTrama\AnalisisTrama\AnalisisTrama\bin\Debug\AnalisisTrama.exe
+C:\Users\Angel Zacarias\Desktop\CUCEI 3o\SRPC\AnalisisTrama30-sep\AnalisisTrama\AnalisisTrama\AnalisisTrama\bin\Debug\AnalisisTrama.pdb
+C:\Users\Angel Zacarias\Desktop\CUCEI 3o\SRPC\AnalisisTrama30-sep\AnalisisTrama\AnalisisTrama\AnalisisTrama\obj\Debug\AnalisisTrama.csprojResolveAssemblyReference.cache
+C:\Users\Angel Zacarias\Desktop\CUCEI 3o\SRPC\AnalisisTrama30-sep\AnalisisTrama\AnalisisTrama\AnalisisTrama\obj\Debug\AnalisisTrama.Form1.resources
+C:\Users\Angel Zacarias\Desktop\CUCEI 3o\SRPC\AnalisisTrama30-sep\AnalisisTrama\AnalisisTrama\AnalisisTrama\obj\Debug\AnalisisTrama.Properties.Resources.resources
+C:\Users\Angel Zacarias\Desktop\CUCEI 3o\SRPC\AnalisisTrama30-sep\AnalisisTrama\AnalisisTrama\AnalisisTrama\obj\Debug\AnalisisTrama.csproj.GenerateResource.Cache
+D:\AnalisisTrama30-sep-v2\AnalisisTrama\AnalisisTrama\AnalisisTrama\bin\Debug\AnalisisTrama.exe.config
+D:\AnalisisTrama30-sep-v2\AnalisisTrama\AnalisisTrama\AnalisisTrama\bin\Debug\AnalisisTrama.exe
+D:\AnalisisTrama30-sep-v2\AnalisisTrama\AnalisisTrama\AnalisisTrama\bin\Debug\AnalisisTrama.pdb
+D:\AnalisisTrama30-sep-v2\AnalisisTrama\AnalisisTrama\AnalisisTrama\obj\Debug\AnalisisTrama.csprojAssemblyReference.cache
+D:\AnalisisTrama30-sep-v2\AnalisisTrama\AnalisisTrama\AnalisisTrama\obj\Debug\AnalisisTrama.Form1.resources
+D:\AnalisisTrama30-sep-v2\AnalisisTrama\AnalisisTrama\AnalisisTrama\obj\Debug\AnalisisTrama.Properties.Resources.resources
+D:\AnalisisTrama30-sep-v2\AnalisisTrama\AnalisisTrama\AnalisisTrama\obj\Debug\AnalisisTrama.csproj.GenerateResource.cache
+D:\AnalisisTrama30-sep-v2\AnalisisTrama\AnalisisTrama\AnalisisTrama\obj\Debug\AnalisisTrama.csproj.CoreCompileInputs.cache
+D:\AnalisisTrama30-sep-v2\AnalisisTrama\AnalisisTrama\AnalisisTrama\obj\Debug\AnalisisTrama.exe
+D:\AnalisisTrama30-sep-v2\AnalisisTrama\AnalisisTrama\AnalisisTrama\obj\Debug\AnalisisTrama.pdb
+C:\Users\Angel Zacarias\Desktop\CUCEI 3o\SRPC\AnalisisTrama\AnalisisTrama\AnalisisTrama\bin\Debug\AnalisisTrama.exe.config
+C:\Users\Angel Zacarias\Desktop\CUCEI 3o\SRPC\AnalisisTrama\AnalisisTrama\AnalisisTrama\obj\Debug\AnalisisTrama.exe
+C:\Users\Angel Zacarias\Desktop\CUCEI 3o\SRPC\AnalisisTrama\AnalisisTrama\AnalisisTrama\obj\Debug\AnalisisTrama.pdb
+C:\Users\Angel Zacarias\Desktop\CUCEI 3o\SRPC\AnalisisTrama\AnalisisTrama\AnalisisTrama\bin\Debug\AnalisisTrama.exe
+C:\Users\Angel Zacarias\Desktop\CUCEI 3o\SRPC\AnalisisTrama\AnalisisTrama\AnalisisTrama\bin\Debug\AnalisisTrama.pdb
+C:\Users\Angel Zacarias\Desktop\CUCEI 3o\SRPC\AnalisisTrama\AnalisisTrama\AnalisisTrama\obj\Debug\AnalisisTrama.csprojResolveAssemblyReference.cache
+C:\Users\Angel Zacarias\Desktop\CUCEI 3o\SRPC\AnalisisTrama\AnalisisTrama\AnalisisTrama\obj\Debug\AnalisisTrama.Form1.resources
+C:\Users\Angel Zacarias\Desktop\CUCEI 3o\SRPC\AnalisisTrama\AnalisisTrama\AnalisisTrama\obj\Debug\AnalisisTrama.Properties.Resources.resources
+C:\Users\Angel Zacarias\Desktop\CUCEI 3o\SRPC\AnalisisTrama\AnalisisTrama\AnalisisTrama\obj\Debug\AnalisisTrama.csproj.GenerateResource.Cache
