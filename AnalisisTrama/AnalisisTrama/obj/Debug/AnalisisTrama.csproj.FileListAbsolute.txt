@@ -85,3 +85,12 @@ C:\Users\Angel Zacarias\Desktop\CUCEI 3o\SRPC\AnalisisTrama\AnalisisTrama\Analis
 C:\Users\Angel Zacarias\Desktop\CUCEI 3o\SRPC\AnalisisTrama\AnalisisTrama\AnalisisTrama\obj\Debug\AnalisisTrama.Form1.resources
 C:\Users\Angel Zacarias\Desktop\CUCEI 3o\SRPC\AnalisisTrama\AnalisisTrama\AnalisisTrama\obj\Debug\AnalisisTrama.Properties.Resources.resources
 C:\Users\Angel Zacarias\Desktop\CUCEI 3o\SRPC\AnalisisTrama\AnalisisTrama\AnalisisTrama\obj\Debug\AnalisisTrama.csproj.GenerateResource.Cache
+C:\Users\Angel Zacarias\Desktop\CUCEI 3o\SRPC\AnalisisTrama\Sniffer-SR\AnalisisTrama\AnalisisTrama\bin\Debug\AnalisisTrama.exe.config
+C:\Users\Angel Zacarias\Desktop\CUCEI 3o\SRPC\AnalisisTrama\Sniffer-SR\AnalisisTrama\AnalisisTrama\obj\Debug\AnalisisTrama.exe
+C:\Users\Angel Zacarias\Desktop\CUCEI 3o\SRPC\AnalisisTrama\Sniffer-SR\AnalisisTrama\AnalisisTrama\obj\Debug\AnalisisTrama.pdb
+C:\Users\Angel Zacarias\Desktop\CUCEI 3o\SRPC\AnalisisTrama\Sniffer-SR\AnalisisTrama\AnalisisTrama\bin\Debug\AnalisisTrama.exe
+C:\Users\Angel Zacarias\Desktop\CUCEI 3o\SRPC\AnalisisTrama\Sniffer-SR\AnalisisTrama\AnalisisTrama\bin\Debug\AnalisisTrama.pdb
+C:\Users\Angel Zacarias\Desktop\CUCEI 3o\SRPC\AnalisisTrama\Sniffer-SR\AnalisisTrama\AnalisisTrama\obj\Debug\AnalisisTrama.csprojResolveAssemblyReference.cache
+C:\Users\Angel Zacarias\Desktop\CUCEI 3o\SRPC\AnalisisTrama\Sniffer-SR\AnalisisTrama\AnalisisTrama\obj\Debug\AnalisisTrama.Form1.resources
+C:\Users\Angel Zacarias\Desktop\CUCEI 3o\SRPC\AnalisisTrama\Sniffer-SR\AnalisisTrama\AnalisisTrama\obj\Debug\AnalisisTrama.Properties.Resources.resources
+C:\Users\Angel Zacarias\Desktop\CUCEI 3o\SRPC\AnalisisTrama\Sniffer-SR\AnalisisTrama\AnalisisTrama\obj\Debug\AnalisisTrama.csproj.GenerateResource.Cache

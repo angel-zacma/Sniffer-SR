@@ -188,6 +188,79 @@ namespace AnalisisTrama
             return tipoHexadecimal;
         }
 
+        //Funcion para comprobacion del Checksum
+        public string sumar(string palabra1, string palabra2)
+        {
+            string sum = "";
+            bool carry = false;
+
+            for (int i = 15; i >= 0; i--)
+            {
+                if (palabra1[i].Equals('1') && palabra2[i].Equals('1'))
+                {
+                    if (carry)
+                    {
+                        sum = "1" + sum;
+                    }
+                    else
+                    {
+                        sum = "0" + sum;
+                    }
+                    carry = true;
+                }
+                else if (palabra1[i].Equals('0') && palabra2[i].Equals('0'))
+                {
+                    if (carry)
+                    {
+                        sum = "1" + sum;
+                    }
+                    else
+                    {
+                        sum = "0" + sum;
+                    }
+                    carry = false;
+                }
+                else
+                {
+                    if (carry)
+                    {
+                        sum = "0" + sum;
+                        carry = true;
+                    }
+                    else
+                    {
+                        sum = "1" + sum;
+                        carry = false;
+                    }
+                }
+            }
+            if (carry)
+            {
+                sum = sumar(sum, "0000000000000001");
+            }
+
+            return sum;
+        }
+
+        public string Complemento(string palabra)
+        {
+            string comp = "";
+
+            for (int i = 0; i < 16; i++)
+            {
+                if (palabra[i].Equals('1'))
+                {
+                    comp += "0";
+                }
+                else
+                {
+                    comp += "1";
+                }
+            }
+
+            return comp;
+        }
+
         //:::::::::::::::::::::::::::::::::::::::TRAMA IPV4:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
         public string ObtenerIPInfo(string trama, string cadenaBinaria)
         {
@@ -354,58 +427,37 @@ namespace AnalisisTrama
             Posiciones += ((46 * 2) + 1) + ",";
             Ncaracteres += "2,";
             //---------------------------------CHECKSUM------------------------------------
-            string bitsDeChecksum = cadenaBinaria.Substring(112, 272), stringPalabraComplementoA1; //Todos los bits que se debe analizar del checksum
-            List<string> palabrasDe16Bits = new List<string>();
-            char[] arrayPalabraComplementoA1 = new char[16];
-            int x=0, checksumInt=0;
-            bool primer1 = false;
-            int[] arrayint = new int[10];
-            int y = 0;
-            for (int i = 0; i < 160; i+=16)
-            {
-                palabrasDe16Bits.Add(bitsDeChecksum.Substring(i,16));
-            }
+            //Obtenemos palabras
+            string p1, p2, p3, p4, p5, p6, p7, p8, p9, p10;
+            p1 = cadenaBinaria.Substring(112, 16);
+            p2 = cadenaBinaria.Substring(128, 16);
+            p3 = cadenaBinaria.Substring(144, 16);
+            p4 = cadenaBinaria.Substring(160, 16); 
+            p5 = cadenaBinaria.Substring(176, 16); 
+            p6 = "0000000000000000"; //Palabra del Checksum
+            p7 = cadenaBinaria.Substring(208, 16); 
+            p8 = cadenaBinaria.Substring(224, 16); 
+            p9 = cadenaBinaria.Substring(240, 16);
+            p10 = cadenaBinaria.Substring(256, 16);
+            //Sumamos Primer Grupo
+            string suma1 = sumar(p1,p2);
+            suma1 = sumar(suma1, p3);
+            suma1 = sumar(suma1, p4);
+            suma1 = sumar(suma1, p5);
+            //Sumamos segundo grupo
+            string suma2 = sumar(p6, p7);
+            suma2 = sumar(suma2, p8);
+            suma2 = sumar(suma2, p9);
+            suma2 = sumar(suma2, p10);
+            //Sumamos grupos
+            string sumaTotal = sumar(suma1, suma2);
+            
+            //Obtenemos el complemento
+            sumaTotal = Complemento(sumaTotal);
+            string sumaCSIP = sumaTotal;
+            MessageBox.Show(Convert.ToString(Convert.ToInt64(sumaTotal, 2), 16));
 
-            foreach (string palabra in palabrasDe16Bits)
-            {
-                primer1 = false;
-                x = 0;
-                foreach (char bit in palabra)
-                {
-                    if (primer1)
-                    {
-                        if (bit == '1')
-                        {
-                            arrayPalabraComplementoA1[x] = '0';
-                        }
-                        else
-                            arrayPalabraComplementoA1[x] = '1';
-                    }
-                    else
-                    {
-                        if (bit == '1')
-                        {
-                            primer1 = true;
-                            arrayPalabraComplementoA1[x] = '0';
-                        }
-                        else
-                        {
-                            arrayPalabraComplementoA1[x] = 'c'; //Caracter para no hacer valer 1 cuando una palabra empieza en 0's
-                        }
-                    }                        
-                    x++;
-                }
-                stringPalabraComplementoA1 = new string(arrayPalabraComplementoA1);
-                stringPalabraComplementoA1 = stringPalabraComplementoA1.Replace("c", "");
-                if (stringPalabraComplementoA1 != "00110111011100")
-                {
-                    arrayint[y] = Convert.ToInt32(stringPalabraComplementoA1, 2);
-                    checksumInt += Convert.ToInt32(stringPalabraComplementoA1, 2); //Falta a esto de aquí sacarle complemento a 1      Da en int: 112284   En complemento a 1: 18787 en lugar de 12835
-
-                }
-                y++;                
-            }
-
+            //Informacion mostrada
             checksum = Convert.ToInt32(trama.Substring(48, 4), 16);
             info += " Checksum: " + checksum.ToString() + "~";
             Posiciones += ((48 * 2) + 2) + ",";
@@ -441,7 +493,7 @@ namespace AnalisisTrama
             switch (protocoloName)
             {
                 case "TCP":
-                    info += ObtenerTCPInfo(trama);
+                    info += ObtenerTCPInfo(trama,cadenaBinaria,sumaCSIP);
                     break;
 
                 //Aquí van los demás casos para los distintos protocolos
@@ -453,7 +505,7 @@ namespace AnalisisTrama
             return info;
         }
 
-        public string ObtenerTCPInfo(string trama)
+        public string ObtenerTCPInfo(string trama, string cadenaBinaria,string sumaTCP)
         {
             string info = "", direccionPuerto, numeroAuxiliar;
             int posicionInsertarns,posicionInsertarnc;
@@ -571,6 +623,36 @@ namespace AnalisisTrama
             Posiciones += ((96 * 2) + 4) + ",";
             Ncaracteres += "6,";
             //-------------------------------CHECKSUM------------------------------------------------
+            
+            //Obtenemos palabras
+            string p1, p2, p3, p4, p5, p6, p7, p8, p9, p10;
+            p1 = cadenaBinaria.Substring(272, 16);
+            p2 = cadenaBinaria.Substring(288, 16);
+            p3 = cadenaBinaria.Substring(304, 16);
+            p4 = cadenaBinaria.Substring(320, 16);
+            p5 = cadenaBinaria.Substring(336, 16);
+            p6 = cadenaBinaria.Substring(352, 16);  
+            p7 = cadenaBinaria.Substring(368, 16);
+            p8 = cadenaBinaria.Substring(384, 16);
+            p9 = "0000000000000000";//CheckSUM 400
+            p10 = cadenaBinaria.Substring(416, 16);
+            //Sumamos Primer Grupo
+            string suma1 = sumar(p1, p2);
+            suma1 = sumar(suma1, p3);
+            suma1 = sumar(suma1, p4);
+            suma1 = sumar(suma1, p5);
+            //Sumamos segundo grupo
+            string suma2 = sumar(p6, p7);
+            suma2 = sumar(suma2, p8);
+            suma2 = sumar(suma2, p9);
+            suma2 = sumar(suma2, p10);
+            //suma2 = sumar(suma2, sumaTCP);
+            //Sumamos grupos
+            string sumaTotal = sumar(suma1, suma2);
+            //Obtenemos el complemento
+            sumaTotal = Complemento(sumaTotal);
+            //MessageBox.Show(Convert.ToString(Convert.ToInt64(sumaTotal, 2), 16));
+            
             numeroAuxiliar = Convert.ToInt32(trama.Substring(100, 4), 16).ToString();
             info += "Checksum: " + numeroAuxiliar + "~";
             Posiciones += ((100 * 2) + 4) + ",";
@@ -738,6 +820,18 @@ namespace AnalisisTrama
                 TxtHexa.SelectionFont = new Font("Microsoft Sans Serif", 12, FontStyle.Bold);
             }
             catch { }
+        }
+        
+        //:::::::::::::::::::::::::::::::::::::::::::::::::::::MENU::::::::::::::::::::::::::::::::::::::::::::::::::::
+        private void analizarToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            //Ejecutamos la opcion de analizar al hacer click en el menú
+            BtnAnalizarTrama_Click(sender,e);
+        }
+
+        private void manualTécnicoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
