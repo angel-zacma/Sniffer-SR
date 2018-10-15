@@ -409,12 +409,14 @@ namespace AnalisisTrama
 
             //---------------------------------PROTOCOLO-----------------------------------
             string protocoloName = "";
+            string protocolodeIP="";
             protocolo = trama.Substring(46, 2);
             switch (protocolo)
             {
                 case "06":
                     info += " Protocolo: TCP ~";
                     protocoloName = "TCP";
+                    protocolodeIP = "06";
                     break;
 
                 //Aquí van los demás casos para los distintos protocolos
@@ -454,7 +456,6 @@ namespace AnalisisTrama
             
             //Obtenemos el complemento
             sumaTotal = Complemento(sumaTotal);
-            string sumaCSIP = sumaTotal;
             MessageBox.Show(Convert.ToString(Convert.ToInt64(sumaTotal, 2), 16));
 
             //Informacion mostrada
@@ -493,7 +494,7 @@ namespace AnalisisTrama
             switch (protocoloName)
             {
                 case "TCP":
-                    info += ObtenerTCPInfo(trama,cadenaBinaria,sumaCSIP);
+                    info += ObtenerTCPInfo(trama,cadenaBinaria,protocolodeIP);
                     break;
 
                 //Aquí van los demás casos para los distintos protocolos
@@ -505,14 +506,14 @@ namespace AnalisisTrama
             return info;
         }
 
-        public string ObtenerTCPInfo(string trama, string cadenaBinaria,string sumaTCP)
+        public string ObtenerTCPInfo(string trama, string cadenaBinaria, string protocolodeIP)
         {
             string info = "", direccionPuerto, numeroAuxiliar;
-            int posicionInsertarns,posicionInsertarnc;
+            int posicionInsertarns, posicionInsertarnc;
             //-------------------------------DIRECCION DE PUERTO ORIGEN-------------------------------------
-            direccionPuerto = Convert.ToInt32(trama.Substring(68,4), 16).ToString();
+            direccionPuerto = Convert.ToInt32(trama.Substring(68, 4), 16).ToString();
             //Funcion para traer el puerto
-            info += "Dirección de puerto Origen: "+ direccionPuerto+ ObtenerPuertos(Convert.ToInt32(direccionPuerto))+ "~";
+            info += "Dirección de puerto Origen: " + direccionPuerto + ObtenerPuertos(Convert.ToInt32(direccionPuerto)) + "~";
             Posiciones += ((68 * 2) + 2) + ",";
             Ncaracteres += "6,";
             //-------------------------------DIRECCION DE PUERTO DESTINO------------------------------------
@@ -552,7 +553,7 @@ namespace AnalisisTrama
                 } while (auxbinario.Length < 6);
             }
             //URG
-            if(auxbinario.Substring(0, 1).Equals("1"))
+            if (auxbinario.Substring(0, 1).Equals("1"))
             {
                 info += "1=URG";
                 urg = true;
@@ -623,34 +624,76 @@ namespace AnalisisTrama
             Posiciones += ((96 * 2) + 4) + ",";
             Ncaracteres += "6,";
             //-------------------------------CHECKSUM------------------------------------------------
+
             
+            /*
             //Obtenemos palabras
-            string p1, p2, p3, p4, p5, p6, p7, p8, p9, p10;
+            string p1, p2, p3, p4, p5, p6, p7, p8, p9, p10, p12, p13, p14, p15, p17, p18,p19,p20;
             p1 = cadenaBinaria.Substring(272, 16);
             p2 = cadenaBinaria.Substring(288, 16);
             p3 = cadenaBinaria.Substring(304, 16);
             p4 = cadenaBinaria.Substring(320, 16);
             p5 = cadenaBinaria.Substring(336, 16);
-            p6 = cadenaBinaria.Substring(352, 16);  
+            p6 = cadenaBinaria.Substring(352, 16);
             p7 = cadenaBinaria.Substring(368, 16);
             p8 = cadenaBinaria.Substring(384, 16);
             p9 = "0000000000000000";//CheckSUM 400
             p10 = cadenaBinaria.Substring(416, 16);
+            p17 = "0000000000000000";
+            p18 = "0000000000000000";
+            p19 = "0000000000000000";
+            p20 = "0000000000000000";
             //Sumamos Primer Grupo
             string suma1 = sumar(p1, p2);
             suma1 = sumar(suma1, p3);
             suma1 = sumar(suma1, p4);
             suma1 = sumar(suma1, p5);
-            //Sumamos segundo grupo
-            string suma2 = sumar(p6, p7);
-            suma2 = sumar(suma2, p8);
-            suma2 = sumar(suma2, p9);
-            suma2 = sumar(suma2, p10);
-            //suma2 = sumar(suma2, sumaTCP);
+            suma1 = sumar(suma1, p6);
+            suma1 = sumar(suma1, p7);
+            suma1 = sumar(suma1, p8);
+            suma1 = sumar(suma1, p9);
+            suma1 = sumar(suma1, p10);
+            suma1 = sumar(suma1, p17);
+            suma1 = sumar(suma1, p18);
+            suma1 = sumar(suma1, p19);
+            suma1 = sumar(suma1, p20);
+            suma1 =suma1;
+            //Sumamos tambien lo de la cabecera IP y la pseudocabecera TCP
+            //Obtenemos el equivalente a binario 
+            string p11 = Convert.ToString(Convert.ToInt32(protocolodeIP, 16), 2);
+            if (p11.Length < 16)
+            {
+                do
+                {
+                    p11 = "0" + p11;
+                } while (p11.Length < 16);
+            }
+            p12 = cadenaBinaria.Substring(208, 16);
+            p13 = cadenaBinaria.Substring(224, 16);
+            p14 = cadenaBinaria.Substring(240, 16);
+            p15 = cadenaBinaria.Substring(256, 16);*/
+            /*string p16 = Convert.ToString(Convert.ToInt32("0050", 16), 2);
+            if (p16.Length < 16)
+            {
+                do
+                {
+                    p16 = "0" + p16;
+                } while (p16.Length < 16);
+            }
+            string suma1 = sumar(p16, "0000000000000000");*/
+            //for(int indy=208;indy<cadenaBinaria.Length;)
+            //string suma3=sumar(p12,p13);
+            //suma3 = sumar(suma3, p14);
+            //suma3 = sumar(suma3, p15);
+            //suma3 = sumar(suma3, p11);
+            //suma3 = sumar(suma3, p16);
+
+            //suma3 = Complemento(suma3);
             //Sumamos grupos
-            string sumaTotal = sumar(suma1, suma2);
+            //string sumaTotal = sumar(suma1, suma2);
+            //string sumaTotal = sumar(suma1, suma3);
             //Obtenemos el complemento
-            sumaTotal = Complemento(sumaTotal);
+            //sumaTotal = Complemento(sumaTotal);
             //MessageBox.Show(Convert.ToString(Convert.ToInt64(sumaTotal, 2), 16));
             
             numeroAuxiliar = Convert.ToInt32(trama.Substring(100, 4), 16).ToString();
